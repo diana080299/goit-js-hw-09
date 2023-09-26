@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -18,4 +20,76 @@ img {
 }
 button {
   padding: 15px;
+}
+
+.timer-body {
+  background: url(/src/img/ukraine.jpeg) no-repeat center;
+  background-size: cover;
+  z-index: -1;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(71, 77, 85, 0.5);
+}
+
+.block {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.block2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 5px;
+}
+.timer {
+  display: flex;
+  gap: 8px;
+}
+.input {
+  width: 100%;
+  height: 35px;
+  background-color: yellow;
+  border-radius: 13px;
+  border: 1.5px solid rgba(7, 112, 240, 0.769);
+  box-shadow: 0px 5.4px 5.4px 0px rgba(7, 112, 240, 0.769);
+  color: #0b6ce1;
+}
+.btn {
+  background-color: #0b6ce1;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 5.4px 5.4px 0px rgba(235, 231, 10, 0.769);
+  color: yellow;
+}
+.field {
+  padding: 5px;
+  border-radius: 80px;
+  background: yellow;
+  box-shadow: 0px 5.4px 5.4px 0px rgba(7, 112, 240, 0.769);
+  display: flex;
+  gap: 2px;
+  color: #0b6ce1;
+}
+
+.value,
+.label {
+  font-weight: 500;
+}
+label {
+  color: #0b6ce1;
 }
